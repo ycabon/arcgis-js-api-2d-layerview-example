@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>MapView</title>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.5/esri/css/main.css">
+  <style type="text/css" media="screen">
+    html,
+    body,
+    #viewDiv {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+
+  <script>
+    const href = location.href;
+    var path = href.substring(0, href.lastIndexOf('/') + 1);
+
+    var dojoConfig = {
+      paths: {
+        app: `${path}/dist`
+      }
+    };
+  </script>
+
+  <script src="https://js.arcgis.com/4.5/"></script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+  <script>
+    require(["app/main"], function(app) { });
+  </script>
+</body>
+
+</html>

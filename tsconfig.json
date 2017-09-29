@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+		"declaration": false,
+    "experimentalDecorators": true,
+    "strictNullChecks": false,
+		"module": "umd",
+		"noUnusedLocals": true,
+		"removeComments": true,
+		"sourceMap": true,
+    "target": "es5",
+    "outDir": "dist"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./typings/**/*.d.ts"
+  ]
+}
