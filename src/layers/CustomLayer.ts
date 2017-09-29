@@ -1,3 +1,5 @@
+/// <amd-dependency path="esri/core/tsSupport/extendsHelper" name="__extends" />
+/// <amd-dependency path="esri/core/tsSupport/decorateHelper" name="__decorate" />
 
 import { declared, property, subclass } from "esri/core/accessorSupport/decorators";
 import * as Layer from "esri/layers/Layer";

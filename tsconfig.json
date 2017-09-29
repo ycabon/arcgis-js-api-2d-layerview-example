@@ -2,6 +2,7 @@
   "compilerOptions": {
 		"declaration": false,
     "experimentalDecorators": true,
+    "noEmitHelpers": true,
     "strictNullChecks": false,
 		"module": "umd",
 		"noUnusedLocals": true,

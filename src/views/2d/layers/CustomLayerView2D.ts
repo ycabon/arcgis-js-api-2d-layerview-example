@@ -1,3 +1,6 @@
+/// <amd-dependency path="esri/core/tsSupport/extendsHelper" name="__extends" />
+/// <amd-dependency path="esri/core/tsSupport/decorateHelper" name="__decorate" />
+
 import { declared, subclass } from "esri/core/accessorSupport/decorators";
 import LayerView2D = require("esri/views/2d/layers/LayerView2D");
 
