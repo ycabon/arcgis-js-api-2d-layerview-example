@@ -1,10 +1,9 @@
 # custom-2d-layerview
 
 Example of custom layerview2d for JS API 4.5.
+API will change at 4.6, this example will be adapted.
 
 ```
 npm install
 tsc
 ```
-
-Live: http://ycabon.esri.com/custom-2d-layerview/
